@@ -1,11 +1,11 @@
 import setuptools, os
 
 PACKAGE_NAME = 'facenet-pytorch'
-VERSION = '2.5.1'
-AUTHOR = 'Tim Esler'
-EMAIL = 'tim.esler@gmail.com'
-DESCRIPTION = 'Pretrained Pytorch face detection and recognition models'
-GITHUB_URL = 'https://github.com/timesler/facenet-pytorch'
+VERSION = '1.0'
+AUTHOR = 'Dancharles Okoto'
+EMAIL = 'dancharles.okoto@gmail.com'
+DESCRIPTION = 'Improved Pretrained Pytorch face detection and recognition models'
+GITHUB_URL = 'https://github.com/dancharlesokoto/facenet-pytorch'
 
 parent_dir = os.path.dirname(os.path.realpath(__file__))
 import_name = os.path.basename(parent_dir)
